@@ -1,0 +1,35 @@
+body{
+background-image: linear-gradient(to right, black, blue, red);
+}
+
+
+
+
+
+
+main{
+background-color: rgba(0, 25, 247, 0.212);
+margin: auto;
+width: 1200px;
+
+}
+
+p{
+    text-indent: 15px;
+    font-size: 120%;
+    color: darkgray;
+}
+
+h1{
+font-variant-caps: small-caps;
+font-size: 300%;
+color: gray;
+font-weight: bold;
+
+}
+
+#elso{
+float: right;
+height: 300px;
+
+}

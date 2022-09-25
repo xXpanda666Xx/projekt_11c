@@ -17,14 +17,15 @@ width: 1200px;
 p{
     text-indent: 15px;
     font-size: 120%;
-    color: darkgray;
+    color: white;
 }
 
 h1{
 font-variant-caps: small-caps;
 font-size: 300%;
-color: gray;
+color: white;
 font-weight: bold;
+
 
 }
 
@@ -32,4 +33,21 @@ font-weight: bold;
 float: right;
 height: 300px;
 
+}
+
+
+.menu{
+background-color: rgb(58, 58, 58);
+margin-bottom: 50px;
+
+}
+
+.szin{
+    color: whitesmoke !important;
+    font-size: 120%;
+}
+
+.szin:hover{
+
+    font-size: 130%;
 }

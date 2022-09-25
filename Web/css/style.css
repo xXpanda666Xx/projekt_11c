@@ -25,6 +25,19 @@ body{
     max-width: 600px;
 }   
 
+#covers {
+    display: flex;
+    flex-flow: column;
+    max-width: 400px;
+    max-height: 300px;
+    margin: auto;
+    float: right;
+}
+
+#Dal {
+    font-style: italic;
+}
+
 h1{
     text-align: center;
     font-size: 300%;

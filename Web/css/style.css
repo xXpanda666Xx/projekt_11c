@@ -114,3 +114,17 @@ p{
     float: right;
     height: 300px; 
 }
+    
+.menu{
+    background-color: rgb(58, 58, 58);
+    margin-bottom: 50px;    
+}
+    
+.szin{
+    color: whitesmoke !important;
+    font-size: 120%;
+}
+    
+.szin:hover{
+    font-size: 130%;
+}

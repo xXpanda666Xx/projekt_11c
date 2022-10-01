@@ -3,7 +3,8 @@ body{
     background-size: 200% 200%;
     animation: gradient 10s linear infinite;
     animation-direction: alternate;
-
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 
 
 
@@ -12,12 +13,6 @@ body{
     0% {background-position: 0%}
     100% {background-position: 100%}
 }
-
-
-
-
-
-
 
 
 
@@ -118,7 +113,7 @@ li{
 }
 
 main{
-    background-color: rgba(97, 0, 223, 0.342);
+    background-color: rgba(97, 0, 223, 0.267);
     margin: auto;
     width: 1200px;
     border-radius: 30px;
@@ -173,4 +168,18 @@ img:hover{
 background-image: url(../img/pop.jpg);
 background-size: cover;
 height: 300px;
+position: center;
 }
+
+@media screen and (max-width: 1000px) {
+    main {
+        background-color: rgba(97, 0, 223, 0.068);
+        margin: auto;
+        width: 100%;
+    }
+    .img-fluid{
+
+
+}
+
+   }

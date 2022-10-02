@@ -176,3 +176,48 @@ position: center;
         width: 100%;
     }
 }
+
+#gt {
+    display: flex;
+    flex-flow: column;
+    max-width: 600px;
+    margin: auto;
+    float: right;
+}
+
+#gt_jamie {
+    max-width: 600px;
+    max-height: 450px;
+}
+
+#link:link{
+	color: red;
+	font-weight: bold;
+}
+
+#link:visited{
+	text-decoration: none;
+	color: black;
+	font-weight: normal;
+}
+
+#gt_mgr {
+    display: flex;
+    flex-flow: column;
+    max-width: 800px;
+    margin-right: 40px;
+    float: left;
+}
+
+#gt_fox {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+#gt_tobyfox {
+    display: flex;
+    flex-flow: column;
+    max-width: 150px;
+    margin-right: 150px;
+    float: left;
+}

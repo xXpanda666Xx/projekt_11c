@@ -14,8 +14,6 @@ body{
     100% {background-position: 100%}
 }
 
-
-
 #mudfield {
     display: flex;
     flex-flow: column;
@@ -39,12 +37,14 @@ body{
     max-width: 600px;
 }   
 
+#lista{
+    display: block;
+    float: right;
+}
+
 #covers {
-    display: flex;
-    flex-flow: column;
     max-width: 400px;
     max-height: 300px;
-    margin: auto;
     float: right;
 }
 
@@ -60,13 +60,23 @@ h1{
     
 }
 
-
+a{
+    color: #9ba5c9;
+    text-decoration: none;
+}
 
 h2{
     font-size: 200%;
     color: black;
     font-weight: bold;
 }
+
+#enh2{
+    font-size: 130%;
+    color: black;
+    font-weight: bold;
+}
+
 
 li{
     color: black;
@@ -143,9 +153,18 @@ p{
     font-size: 120%;
 }
     
-.szin:hover{
+/*  Kellenek ezek nekünk?  */
+
+/*.szin:hover{ 
     font-size: 130%;
-}
+}*/
+
+/*img:hover{
+    border: 12px solid;
+    border-image-slice: 1;
+    border-width: 7px;
+    border-image-source: linear-gradient(to left,  #ffff, #737da3, #FA4753);
+}*/
 
 img{
     border: 10px solid;
@@ -155,12 +174,7 @@ img{
  
 }
 
-img:hover{
-    border: 12px solid;
-    border-image-slice: 1;
-    border-width: 7px;
-    border-image-source: linear-gradient(to left,  #ffff, #737da3, #FA4753);
-}
+
 
 #banner{
 background-image: url(../img/pop.jpg);
@@ -168,6 +182,21 @@ background-size: cover;
 height: 300px;
 position: center;
 }
+
+#banner2{
+    background-image: url(../img/klasz.jpg);
+    background-size: cover;
+    height: 300px;
+    position: center;
+    border-radius: 10px;
+    }
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1000px) {
     main {

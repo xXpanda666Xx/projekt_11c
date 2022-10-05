@@ -14,6 +14,55 @@ body{
     100% {background-position: 100%}
 }
 
+#bal{
+    float: left;
+}
+
+#jobb{
+    float: right;
+}
+
+.container2 {
+    position: relative;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container2:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container2:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
 #mudfield {
     display: flex;
     flex-flow: column;

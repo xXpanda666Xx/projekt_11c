@@ -14,25 +14,31 @@ body{
     100% {background-position: 100%}
 }
 
-#bal{
+.left{
     float: left;
 }
 
-#jobb{
+.right{
     float: right;
+}
+
+.middle{
+    margin: auto;
 }
 
 .container2 {
     position: relative;
-    width: 50%;
+    max-width: 50%;
     margin: auto;
-  }
+
+}
   
   .image {
     opacity: 1;
     display: block;
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
     transition: .5s ease;
     backface-visibility: hidden;
   }
@@ -56,12 +62,12 @@ body{
     opacity: 1;
   }
   
-  .text {
-    background-color: #04AA6D;
+.text {
+    background-color: #737da3;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-  }
+}
 
 #mudfield {
     display: flex;
@@ -202,19 +208,6 @@ p{
     font-size: 120%;
 }
     
-/*  Kellenek ezek nekünk?  */
-
-/*.szin:hover{ 
-    font-size: 130%;
-}*/
-
-/*img:hover{
-    border: 12px solid;
-    border-image-slice: 1;
-    border-width: 7px;
-    border-image-source: linear-gradient(to left,  #ffff, #737da3, #FA4753);
-}*/
-
 img{
     border: 10px solid;
     border-image-slice: 1;

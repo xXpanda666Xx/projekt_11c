@@ -254,6 +254,7 @@ position: center;
     max-width: 600px;
     margin: auto;
     float: right;
+	margin-left: 10px;
 }
 
 #gt_jamie {
@@ -291,4 +292,33 @@ position: center;
     max-width: 150px;
     margin-right: 150px;
     float: left;
+}
+
+#asdasd {
+	height: 40px;
+	color: rgba(0,0,0,0)
+}
+
+#borito {
+	max-height: 200px;
+	max-width: 200px;
+}
+
+table, th, tr, td{
+	border: 1px solid black;
+}
+
+th{
+	text-align: center;
+	color: black;
+	width: 400px;
+	background-color: #989dbb;
+}
+
+td{
+	text-align: center;
+	color: black;
+	width: 400px;
+	height: 100px;
+	background-color: #dde3f2;
 }
